@@ -1,0 +1,14 @@
+LINES AMOUNT: 81231
+Min need of operators is 287
+
+Filename: /Users/valerii/Developer/IPChain/main.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    21     21.6 MiB     21.6 MiB           1   @profile(stream=fp)
+    22                                         def main(path: str) -> None:
+    23     32.2 MiB     10.7 MiB           1       parser = LogParser(path)
+    24     43.5 MiB     11.2 MiB           1       res = parser()
+    25     44.2 MiB      0.8 MiB           1       append_logfile_stats(res)  # optional not optimal
+
+

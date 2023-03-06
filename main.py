@@ -26,7 +26,7 @@ def append_logfile_stats(res) -> None:
 def main(path: str) -> None:
     parser = LogParser(path)
     res: int = parser()
-    f"Min need of operators is {res}"
+    print(f"Min need of operators is {res}")
     append_logfile_stats(res)  # optional not optimal
 
 
